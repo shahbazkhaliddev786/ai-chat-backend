@@ -27,10 +27,7 @@ async function getBotResponse(prompt) {
       );
   
       return response.data;
-    } catch (error) {
-      console.error('Error getting bot response:', error);
-      return 'Sorry, I am unable to respond at the moment.';
-    }
+   
   }
 
 // create new chat
