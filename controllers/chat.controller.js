@@ -1,8 +1,6 @@
 const prisma = require("../db/prisma.config");
 const axios = require("axios");
 
-
-
 // create new chat
 const newChat = async(req,res)=>{
     try {
