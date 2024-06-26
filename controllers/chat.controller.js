@@ -1,21 +1,7 @@
 const prisma = require("../db/prisma.config");
 const axios = require("axios");
 
-// function to get bot response
-async function getBotResponse(prompt) {
-    try {
-      
-        },
-        {
-          headers: {
-            Authorization: 'Bearer 8cc8b6a21bca579e2bea732923c5aa8d5362655f7438de4e2e8020f1670d8df5',
-          },
-        }
-      );
-  
-      return response.data;
-   
-  }
+
 
 // create new chat
 const newChat = async(req,res)=>{
